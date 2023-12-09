@@ -1,0 +1,2515 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1"
+     versionIRI="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1/1.0">
+    <Prefix name="" IRI="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Копия базы знаний из Prolog</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#april"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ashe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#august"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#availiability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#baptiste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bastion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#briggite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cinematic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#claw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cyborg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#difficulty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#doomfist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#easy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#echo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#february"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#free"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gang_of_the_dead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#genji"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hanzo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#have"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#havent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#healer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#illari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#july"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#junkerqueen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#junkrat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kiriko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lifeweaver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lucio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#march"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#may"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mccree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mei"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mercy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moira"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neutral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#november"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#october"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#orisa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overwatch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pharah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ramattra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reaper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reinhardt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#releas_month"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#releas_year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roadhog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#russian_army"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sigma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sojourn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sombra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#symmetra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#torbjorn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tracer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vishkar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#widowmaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#winston"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wreckingball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zarya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zenyatta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2023"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#availiability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#character"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#characteristics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cinematic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#difficulty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#releas_month"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#releas_year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#species"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#characters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ashe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roadhog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zenyatta"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#tier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aa"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aa"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aa"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aa"/>
+        <Class IRI="#ramattra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aa"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aa"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aa"/>
+        <Class IRI="#tier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aa"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ana"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#animal"/>
+        <Class IRI="#species"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#animal"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#animal"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#april"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#april"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#april"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#april"/>
+        <Class IRI="#releas_month"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ashe"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#august"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#august"/>
+        <Class IRI="#releas_month"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#august"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#availiability"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#b"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#b"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#b"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#b"/>
+        <Class IRI="#tier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#b"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#b"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#baptiste"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bastion"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bb"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bb"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bb"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bb"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bb"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bb"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bb"/>
+        <Class IRI="#tier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#briggite"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c"/>
+        <Class IRI="#tier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cinematic"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#claw"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#claw"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#claw"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#claw"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#claw"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#claw"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyborg"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyborg"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyborg"/>
+        <Class IRI="#species"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d"/>
+        <Class IRI="#tier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dd"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#difficulty"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#doomfist"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dva"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#difficulty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#echo"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#february"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#february"/>
+        <Class IRI="#releas_month"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#availiability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#free"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gang_of_the_dead"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gang_of_the_dead"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gender"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#genji"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hanzo"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#difficulty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#cinematic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#have"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#cinematic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#ramattra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#havent"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healer"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#species"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#illari"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#july"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#july"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#july"/>
+        <Class IRI="#releas_month"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#july"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#junkerqueen"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#junkrat"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kiriko"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lifeweaver"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lucio"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#ramattra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#march"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#march"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#march"/>
+        <Class IRI="#releas_month"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#releas_month"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#may"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mccree"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#difficulty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#ramattra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mei"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mercy"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moira"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#november"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#november"/>
+        <Class IRI="#releas_month"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#november"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#october"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#october"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#october"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#october"/>
+        <Class IRI="#releas_month"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#october"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organization"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orisa"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paid"/>
+        <Class IRI="#availiability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paid"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paid"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paid"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paid"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paid"/>
+        <Class IRI="#ramattra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pharah"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ramattra"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reaper"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reinhardt"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#releas_month"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#releas_year"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roadhog"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#robot"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#robot"/>
+        <Class IRI="#echo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#robot"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#robot"/>
+        <Class IRI="#ramattra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#robot"/>
+        <Class IRI="#species"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#robot"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#role"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#russian_army"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#russian_army"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sigma"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sojourn"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solider"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sombra"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#species"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#symmetra"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#ramattra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tier"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#torbjorn"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tracer"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vishkar"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vishkar"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vishkar"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#widowmaker"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#winston"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wreckingball"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zarya"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zenyatta"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#ana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#bastion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#dva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#genji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#hanzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#junkrat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#lucio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#mccree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#mei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#mercy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#pharah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#reaper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#reinhardt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#releas_year"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#roadhog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#solider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#sombra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#symmetra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#torbjorn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#tracer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#widowmaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#winston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#zarya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2016"/>
+        <Class IRI="#zenyatta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2017"/>
+        <Class IRI="#doomfist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2017"/>
+        <Class IRI="#moira"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2017"/>
+        <Class IRI="#orisa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2017"/>
+        <Class IRI="#releas_year"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2018"/>
+        <Class IRI="#ashe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2018"/>
+        <Class IRI="#briggite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2018"/>
+        <Class IRI="#releas_year"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2018"/>
+        <Class IRI="#wreckingball"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2019"/>
+        <Class IRI="#baptiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2019"/>
+        <Class IRI="#releas_year"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2019"/>
+        <Class IRI="#sigma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2022"/>
+        <Class IRI="#junkerqueen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2022"/>
+        <Class IRI="#kiriko"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2022"/>
+        <Class IRI="#ramattra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2022"/>
+        <Class IRI="#releas_year"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2022"/>
+        <Class IRI="#sojourn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2023"/>
+        <Class IRI="#illari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2023"/>
+        <Class IRI="#lifeweaver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2023"/>
+        <Class IRI="#releas_year"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#a"/>
+        <Class IRI="#aa"/>
+        <Class IRI="#b"/>
+        <Class IRI="#bb"/>
+        <Class IRI="#c"/>
+        <Class IRI="#d"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ana"/>
+        <Class IRI="#ashe"/>
+        <Class IRI="#baptiste"/>
+        <Class IRI="#bastion"/>
+        <Class IRI="#briggite"/>
+        <Class IRI="#doomfist"/>
+        <Class IRI="#dva"/>
+        <Class IRI="#echo"/>
+        <Class IRI="#genji"/>
+        <Class IRI="#hanzo"/>
+        <Class IRI="#illari"/>
+        <Class IRI="#junkerqueen"/>
+        <Class IRI="#junkrat"/>
+        <Class IRI="#kiriko"/>
+        <Class IRI="#lifeweaver"/>
+        <Class IRI="#lucio"/>
+        <Class IRI="#mccree"/>
+        <Class IRI="#mei"/>
+        <Class IRI="#mercy"/>
+        <Class IRI="#moira"/>
+        <Class IRI="#orisa"/>
+        <Class IRI="#pharah"/>
+        <Class IRI="#ramattra"/>
+        <Class IRI="#reaper"/>
+        <Class IRI="#reinhardt"/>
+        <Class IRI="#roadhog"/>
+        <Class IRI="#sigma"/>
+        <Class IRI="#sojourn"/>
+        <Class IRI="#solider"/>
+        <Class IRI="#sombra"/>
+        <Class IRI="#symmetra"/>
+        <Class IRI="#torbjorn"/>
+        <Class IRI="#tracer"/>
+        <Class IRI="#widowmaker"/>
+        <Class IRI="#winston"/>
+        <Class IRI="#wreckingball"/>
+        <Class IRI="#zarya"/>
+        <Class IRI="#zenyatta"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ana"/>
+        <Class IRI="#characteristics"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#animal"/>
+        <Class IRI="#cyborg"/>
+        <Class IRI="#human"/>
+        <Class IRI="#robot"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#april"/>
+        <Class IRI="#august"/>
+        <Class IRI="#february"/>
+        <Class IRI="#july"/>
+        <Class IRI="#march"/>
+        <Class IRI="#may"/>
+        <Class IRI="#november"/>
+        <Class IRI="#october"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#availiability"/>
+        <Class IRI="#cinematic"/>
+        <Class IRI="#difficulty"/>
+        <Class IRI="#gender"/>
+        <Class IRI="#organization"/>
+        <Class IRI="#releas_month"/>
+        <Class IRI="#releas_year"/>
+        <Class IRI="#role"/>
+        <Class IRI="#species"/>
+        <Class IRI="#tier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#claw"/>
+        <Class IRI="#gang_of_the_dead"/>
+        <Class IRI="#neutral"/>
+        <Class IRI="#overwatch"/>
+        <Class IRI="#russian_army"/>
+        <Class IRI="#vishkar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#dd"/>
+        <Class IRI="#healer"/>
+        <Class IRI="#tank"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#easy"/>
+        <Class IRI="#hard"/>
+        <Class IRI="#medium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#female"/>
+        <Class IRI="#male"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#free"/>
+        <Class IRI="#paid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#have"/>
+        <Class IRI="#havent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#2016"/>
+        <Class IRI="#2017"/>
+        <Class IRI="#2018"/>
+        <Class IRI="#2019"/>
+        <Class IRI="#2022"/>
+        <Class IRI="#2023"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#ana"/>
+        <NamedIndividual IRI="#Ana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ashe"/>
+        <NamedIndividual IRI="#Ashe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#roadhog"/>
+        <NamedIndividual IRI="#Roadhog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#zenyatta"/>
+        <NamedIndividual IRI="#Zenyatta"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hp"/>
+        <NamedIndividual IRI="#Ana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ana"/>
+        <Literal>Ana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#position"/>
+        <NamedIndividual IRI="#Ana"/>
+        <Literal>healer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hp"/>
+        <NamedIndividual IRI="#Ashe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ashe"/>
+        <Literal>Ashe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#position"/>
+        <NamedIndividual IRI="#Ashe"/>
+        <Literal>dd</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hp"/>
+        <NamedIndividual IRI="#Roadhog"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Roadhog"/>
+        <Literal>Roadhog</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#position"/>
+        <NamedIndividual IRI="#Roadhog"/>
+        <Literal>tank</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hp"/>
+        <NamedIndividual IRI="#Zenyatta"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Zenyatta"/>
+        <Literal>Zenyatta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#position"/>
+        <NamedIndividual IRI="#Zenyatta"/>
+        <Literal>healer</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#availiability"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cinematic"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#difficulty"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#gender"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#organization"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#releas_month"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#releas_year"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#role"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#species"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tier"/>
+        <ObjectProperty IRI="#characteristics"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#characters"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hp"/>
+        <DataProperty IRI="#characters"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name"/>
+        <DataProperty IRI="#characters"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#position"/>
+        <DataProperty IRI="#characters"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#availiability</IRI>
+        <Literal>Доступен ли персонаж со старта, или его нужно покупать отдельно</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#character</IRI>
+        <Literal>Список персонажей игры Overwatch 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#characteristics</IRI>
+        <Literal>Список некторорых свойств персонажей</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cinematic</IRI>
+        <Literal>Наличие вступительного ролика персонажа</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#difficulty</IRI>
+        <Literal>Определяет сложность освоения механик персонажа</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gender</IRI>
+        <Literal>Пол персонажа</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hp</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#organization</IRI>
+        <Literal>Организация в мире игры, к котрой относится персонаж</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#releas_month</IRI>
+        <Literal>Месяц релза персонажа</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#releas_year</IRI>
+        <Literal>Год релиза персонажа</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#species</IRI>
+        <Literal>Вид, к которому относится персонаж</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tier</IRI>
+        <Literal>Полезность персонажа в текущем сезоне</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

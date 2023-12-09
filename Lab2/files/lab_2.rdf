@@ -1,0 +1,1523 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1/"
+     xml:base="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:lab_1="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1/1.0"/>
+        <rdfs:comment>Копия базы знаний из Prolog</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#availiability -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#availiability">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cinematic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cinematic">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gender">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#role -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#role">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characters -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characters">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hp">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characters"/>
+        <rdfs:comment></rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characters"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#position -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#position">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characters"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#aa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#aa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#april -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#april">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#august -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#august">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#availiability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#availiability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cinematic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cinematic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#claw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#claw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cyborg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cyborg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#role"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#easy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#easy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#february -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#february">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#female -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gender"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#free -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#free">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#availiability"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#paid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gang_of_the_dead -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gang_of_the_dead">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gender">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#have -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#have">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cinematic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#havent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#havent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#havent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cinematic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#healer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#healer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#role"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#human">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#july -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#july">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gender"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#march -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#march">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#may -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#may">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#neutral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#neutral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#november -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#november">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#october -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#october">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#overwatch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#overwatch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#paid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#paid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#availiability"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#robot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#robot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#russian_army -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#russian_army">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#role"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#vishkar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#vishkar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2016 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2016">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2017 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2017">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2018 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2018">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2019 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2019">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2022 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2022">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2023 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2023">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#Ana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#Ana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+        <lab_1:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</lab_1:hp>
+        <lab_1:name>Ana</lab_1:name>
+        <lab_1:position>healer</lab_1:position>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#Ashe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#Ashe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+        <lab_1:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</lab_1:hp>
+        <lab_1:name>Ashe</lab_1:name>
+        <lab_1:position>dd</lab_1:position>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#Roadhog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#Roadhog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+        <lab_1:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</lab_1:hp>
+        <lab_1:name>Roadhog</lab_1:name>
+        <lab_1:position>tank</lab_1:position>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#Zenyatta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#Zenyatta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+        <lab_1:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</lab_1:hp>
+        <lab_1:name>Zenyatta</lab_1:name>
+        <lab_1:position>healer</lab_1:position>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#availiability">
+        <rdfs:comment>Доступен ли персонаж со старта, или его нужно покупать отдельно</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#character">
+        <rdfs:comment>Список персонажей игры Overwatch 2</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#characteristics">
+        <rdfs:comment>Список некторорых свойств персонажей</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cinematic">
+        <rdfs:comment>Наличие вступительного ролика персонажа</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty">
+        <rdfs:comment>Определяет сложность освоения механик персонажа</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gender">
+        <rdfs:comment>Пол персонажа</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization">
+        <rdfs:comment>Организация в мире игры, к котрой относится персонаж</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month">
+        <rdfs:comment>Месяц релза персонажа</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year">
+        <rdfs:comment>Год релиза персонажа</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species">
+        <rdfs:comment>Вид, к которому относится персонаж</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier">
+        <rdfs:comment>Полезность персонажа в текущем сезоне</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#aa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ana"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ashe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#baptiste"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#bastion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#briggite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#doomfist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dva"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#echo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#genji"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hanzo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#illari"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkerqueen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#junkrat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#kiriko"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lifeweaver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#lucio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mccree"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mei"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#mercy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#moira"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#orisa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#pharah"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#ramattra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reaper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#reinhardt"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#roadhog"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sigma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sojourn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#solider"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#sombra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#symmetra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#torbjorn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tracer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#widowmaker"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#winston"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#wreckingball"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zarya"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#zenyatta"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#animal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cyborg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#human"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#robot"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#april"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#august"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#february"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#july"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#march"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#may"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#november"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#october"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#availiability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#cinematic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#difficulty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gender"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#organization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_month"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#releas_year"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#species"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tier"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#claw"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#gang_of_the_dead"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#neutral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#overwatch"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#russian_army"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#vishkar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#healer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#tank"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#easy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#hard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#medium"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2016"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2017"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2018"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2019"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2022"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/arums/ontologies/2023/8/lab_1#2023"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

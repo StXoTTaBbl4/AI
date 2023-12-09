@@ -1,0 +1,33 @@
+- Простые запросы к базе знаний для поиска фактов.
+	-проверка, существует ли такой персонаж: character(ana). => true
+						 character(fernando). => false
+
+- Запросы, использующие логические операторы (**и, или, не**) для формулирования сложных условий.
+	-поиск персонажей с заданными харакеристиками:
+	releas_year(X,2016), gender(X,female), not(organization(X, overwatch)). =>
+										X = sombra ;
+										X = symmetra ;
+										X = widowmaker ;
+										X = zarya ;
+
+- Запросы, использующие переменные для поиска объектов с определенными характеристиками.
+	-определение самых "легких" и полезных персонажей сезона:
+	(tier(X, bb) ; tier(X, a) ; tier(X, aa)), difficulty(X, easy). =>
+									X = briggite ;
+									X = lucio ;
+									X = junkrat ;
+									X = mercy ;
+									X = reaper ;
+									X = sigma ;
+									X = zenyatta ;
+									X = moira ;
+									X = reinhardt ;
+									X = solider ;
+									X = torbjorn.
+
+- Запросы, которые требуют выполнения правил для получения результата.
+	-вывод актуальных героев определенной роли в данном сезоне:
+	hero(X,0), releas_year(X,2016), role(X, healer), meta_hero(X,0). =>
+									X = ana ;
+									X = lucio ;
+									X = mercy ;

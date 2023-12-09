@@ -6,7 +6,7 @@ def get_weights_matrix(X, Y):
     Вычисляет коэффициенты линейной регрессии матричным методом
     :param X: Матрица независимых коэффициентов (получена с помощью utility.get_normalized_matrix(df, features))
     :param Y: Массив зависимых переменных
-    :return:
+    :return: Коэффициенты линейной регрессии
     """
     return np.linalg.inv(X.T @ X) @ X.T @ Y
 

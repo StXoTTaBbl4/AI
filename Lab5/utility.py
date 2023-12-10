@@ -10,6 +10,11 @@ import knnClassifier
 
 
 def normalize(df):
+    """
+    Нормализация значений(min/max)
+    :param df: Dataframe с данными
+    :return: Dataframe с нормализованными данными
+    """
     for c_name, params in df.items():
         # mean = params.mean()
         # std = params.std()
@@ -22,6 +27,17 @@ def normalize(df):
 
 
 def predict_multiple(ks, x_train, y_train, x_test, y_test, show_matrix, _type="name"):
+    """
+    Производит предсказание класса для набора параметров k.
+    :param ks: Массив со значениями k
+    :param x_train: Тренировочный набор признаков
+    :param y_train: Тренировочный набор классов
+    :param x_test: Тестовый набор признаков
+    :param y_test: Тестовый набор классов
+    :param show_matrix: Boolean параметр, от которого зависит, будут ли строится матрицы ошибок
+    :param _type: Тип матрицы по набору признаков(фиксированный или случайный)
+    :return: Массив Tuple-ов вида (k, y_pred)
+    """
     predictions = []
     for k in ks:
         pred = knnClassifier.test(x_train.values, y_train.values, x_test.values, k)
@@ -44,6 +60,15 @@ def predict_multiple(ks, x_train, y_train, x_test, y_test, show_matrix, _type="n
 
 
 def confusion_matrix(y_true, y_pred, num_classes, k, _type="name"):
+    """
+    Строит матрицу ошибок
+    :param y_true: Массив реальных значения y
+    :param y_pred: Массив предсказанных значений y
+    :param num_classes: Кол-во классов(y)
+    :param k: Кол-во соседей(нужно для подписи матрицы)
+    :param _type: Тип матрицы по набору признаков(фиксированный или случайный)
+    :return: Двумерный массив - матрица ошибок
+    """
     matrix = np.zeros((num_classes, num_classes))
     for true, pred in zip(y_true, y_pred):
         matrix[true - 1, pred - 1] += 1
@@ -53,3 +78,4 @@ def confusion_matrix(y_true, y_pred, num_classes, k, _type="name"):
     sn.heatmap(df_cm, annot=True)
     plt.title(f'{_type} k = {k}', fontsize=15)
     plt.show()
+    return matrix

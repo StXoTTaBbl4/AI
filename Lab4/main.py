@@ -31,6 +31,7 @@ r2 = linear_regression.r_squared(y_test, pred)
 print(f'Независимые параметры \n{independent_features}')
 print(f'\nЗависимый параметр: \n{dependent_feature}')
 print(f'\nКоэффициенты: \n{weights_matrix}')
+print(f'r^2: {r2}')
 
 r2_scores = {}
 

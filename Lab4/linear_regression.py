@@ -11,31 +11,6 @@ def get_weights_matrix(X, Y):
     return np.linalg.inv(X.T @ X) @ X.T @ Y
 
 
-# def get_weights_scalar(X, Y):
-#     n = len(X)
-#     width = len(X[0])
-#     A = []
-#     B = [sum(Y)]
-#
-#     for i in range(width):
-#         B.append(sum(Y * X[:, i]))
-#
-#     A.append([])
-#     tmp = A[0]
-#     tmp.append(n)
-#     for i in range(width):
-#         tmp.append(sum(X[:, i]))
-#
-#     for i in range(width):
-#         A.append([])
-#         tmp = A[i + 1]
-#         tmp.append(sum(X[:, i]))
-#         for j in range(width):
-#             tmp.append(sum(X[:, i] * X[:, j]))
-#
-#     return np.linalg.solve(A, B)
-
-
 def r_squared(y_true, y_pred):
     """
     Вычисляет коэффициент детерминации

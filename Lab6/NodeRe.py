@@ -27,28 +27,19 @@ def entropy(Y_values):
 
 
 def gain(X, Y):
-    #  энтропия до разделения
+
     before = entropy(Y.values)
 
-    #  находим уникальные значения признака и количество вхождений каждого уникального признака
     values, occurrences = np.unique(X, return_counts=True)
     total = len(Y.values)
 
-    #  массив энтропий для того, чтобы получить взвешенную энтропию (ВЭ потом будет использоваться для определения
-    #  выгоды от разделения по данному признаку)
     entropies = []
-    #  пробегаюсь по всем уникальным значениям признака
+
     for i, value in enumerate(values):
-        #  вычисляю вероятность (количество объектов с таким признаком / общее количество объектов)
         prob = occurrences[i] / total
 
-        #  все метки данного значения X
         cur_labels = Y[X == value]
-
-        #  высчитываю энтропию меток полученных значений меток для данного уникального значения
         tmp_entropy = prob * entropy(cur_labels.values)
-
-        #  добавляю в массив энтропий
         entropies.append(tmp_entropy)
 
     return before - sum(entropies)
@@ -127,5 +118,3 @@ def print_tree(root: Node, spaces=0):
     for i in range(spaces):
         space += " "
     print(a.replace('#', space))
-
-

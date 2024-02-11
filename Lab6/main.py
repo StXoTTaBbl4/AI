@@ -62,9 +62,7 @@ auc_pr.build_auc_pr(hm_recall, hm_precision)
 
 # auc_pr_ai = 0
 auc_pr_hm = 0
-print(f'len {len(fprs)}')
 for i in range(len(fprs) - 1):
-    print(i)
     # auc_pr_ai += (ai_precision[i] + ai_precision[i+1]) / 2 * (ai_recall[i+1] - ai_recall[i])
     auc_pr_hm += (hm_precision[i] + hm_precision[i+1]) / 2 * (hm_recall[i+1] - hm_recall[i])
 # print(f'ai auc_pr = {abs(auc_pr_ai)}')

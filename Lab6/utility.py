@@ -1,6 +1,8 @@
 import sys
 
 import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
 
 
 def classify(dataframe, col_name, step=2):
@@ -20,7 +22,7 @@ def classify(dataframe, col_name, step=2):
     return dataframe
 
 
-def split_data(X, Y, train_size=0.8, random_state=42):
+def split_data(X: pd.DataFrame, Y: pd.DataFrame, train_size=0.8, random_state=42):
     """
     Разбивает данные на тестовую и тренировочную части.
     :param X: Независимые переменные.
@@ -37,11 +39,52 @@ def split_data(X, Y, train_size=0.8, random_state=42):
     return x_train, y_train, x_test, y_test
 
 
-def get_max_from_dict(d: dict):
-    _max = sys.float_info.min
-    key = None
-    for k in d.keys():
-        if d[k] > _max:
-            _max = d[k]
-            key = k
-    return key, _max
+def get_fntp(real: list, pred: list, positive: str, negative: str):
+    tp, tn, fp, fn = 0, 0, 0, 0
+    for i in range(len(real)):
+        if pred[i] == positive:
+            if real[i] == positive:
+                tp += 1
+            else:
+                fp += 1
+        if pred[i] == negative:
+            if real[i] == positive:
+                fn += 1
+            else:
+                tn += 1
+    return tp, tn, fp, fn
+
+
+def accuracy(tp, tn, fp, fn):
+    return (tp + tn) / (tp + fn + tn + fp)
+
+
+def precision(tp, fp):
+    try:
+        return tp / (fp + tp)
+    except ZeroDivisionError:
+        return 0
+
+
+def recall(tp, fn):
+    return tp / (fn + tp)
+
+
+def calculate_proba(X_values, root, depth=0):
+    # Для каждой выборки в тестовом наборе ваша модель должна выводить оценку или набор оценок,
+    # представляющих вероятность принадлежности к каждому классу
+    if root.class_name is not None:
+        return 1 / depth
+
+    if X_values[root.feature] < root.div_value:
+        return calculate_proba(X_values, root.left, depth + 1)
+    else:
+        return calculate_proba(X_values, root.right, depth + 1)
+
+
+def calculate_probas(X, tree):
+    probas = []
+    for ind in range(X.shape[0]):
+        probas.append(calculate_proba(X.iloc[ind].to_dict(), tree))
+
+    return probas
